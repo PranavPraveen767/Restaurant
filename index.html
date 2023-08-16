@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+  <!-- css LINK -->
+  <link rel="stylesheet" href="./restaurant.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Lora:ital@1&family=Noto+Sans+JP:wght@200&family=PT+Serif:ital@1&family=Poppins:wght@200&family=REM&display=swap"
+    rel="stylesheet">
+  <!-- font-awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="conatiner">
+    <nav class="navigation">
+      <img class="icon" src="./images/restaurant icon.png" alt="res-icon">
+      <ul>
+        <li class="listitem"><a class="link" href="#home">HOME</a></li>
+        <li class="listitem"><a class="link" href="#location">LOCATION</a></li>
+        <li class="listitem"><a class="link" href="#chef"> CHEFS</a></li>
+        <li class="listitem"><a class="link" href="#specials"> OUR SPECIALS</a></li>
+      </ul>
+
+    </nav>
+    <section id="home">
+      <div class="title">
+        <h1 class="h1-title">Best food for your taste-LAKE PALACE</h1>
+        <p class="title-p">Discover culinary perfection at Lake Palace. Our chef's artfully crafted dishes,<br> made
+          with fresh ingredients, offer an unforgettable dining experience.<br> From cozy ambiance to exceptional
+          service, every moment is meant to be savored.<br> Embark on a remarkable culinary journey with us. Reserve
+          your table now and <br>savor the essence of exquisite dining.</p>
+      </div>
+      <div class="rest-img">
+        <img class="cuisine-img"
+          src="./images/pita-stuffed-with-chicken-tomato-lettuce-wooden-table-middle-eastern-cuisine.jpg" alt="">
+      </div>
+    </section>
+    <section id="location">
+      <div class="section">
+        <h1 class="heading">LOCATION</h1>
+        <p class="title-p">Nestled within the vibrant pulse of Kakkanad, Lake Palace beckons <br>you to a realm where
+          delectable flavors intertwine with impeccable service. <br>Our establishment stands as a testament to the art
+          of crafting gastronomic delights <br> ignite the senses and warm the soul.</p>
+        <iframe class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62865.541959181464!2d76.30948089295103!3d10.008897991620294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c8e94a07a07%3A0x49921cdfae82660!2sKakkanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1691722391191!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <section id="chef">
+      <h1 class="heading">Our chef</h1>
+      <div class="card-container">
+
+
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlnrLF80vTi0SAS9tNuO4c5CKjxkwKdhP__Q&usqp=CAU"
+            alt="Chef 1">
+          <h2>Suresh Pillai </h2><br>
+          <p>Chef at Raviz Ashtamudi in Kerala. Famed for traditional Kerala sadya meals.</p>
+        </div>
+
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjOXJmjflQxcJkRisbbOanZe7lmRXcGwBBSQ&usqp=CAU"
+            alt="Chef 2">
+          <h2>Mohamad Shereef</h2>
+          <p>Known as the "Spice King". Promoted Kerala cuisine through cookbooks and TV shows.</p>
+        </div>
+
+        <div class="card">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt="Chef 3">
+          <h2>Narayanan Krishnan </h2>
+          <p>Former Chef at Taj Green Cove Resort in Kovalam. Master in curries and spicy Kerala food.</p>
+        </div>
+
+      </div>
+    </section>
+    <section id="specials">
+      <h1 class="heading">OUR SPECIALS</h1>
+      <div class="card-container">
+
+        <div class="card-2">
+          <img
+            src="https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Item 1">
+          <div class="details">
+            <h3>Special Chicken Biriyani</h3>
+
+            <p class="price">$5</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+
+        <div class="card-2">
+          <img
+            src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNoaWNrZW4lMjBiaXJpeWFuaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            alt="Item 1">
+          <div class="details">
+            <h3>Talassery Dum biriyani</h3>
+            <p class="price">$3.23</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+
+        <div class="card-2">
+          <img
+            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2hpY2tlbiUyMGJpcml5YW5pfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+            alt="Item 1">
+          <div class="details">
+            <h3>Chicken barbeque</h3>
+            <p class="price">$7.10</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+
+        <div class="card-2">
+          <img src="https://images.pexels.com/photos/4728230/pexels-photo-4728230.png?auto=compress&cs=tinysrgb&w=600"
+            alt="Item 1">
+          <div class="details">
+            <h3>Lebanese Shawarma</h3>
+            <p class="price">$2.10</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+
+        <div class="card-2">
+          <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt="Item 1">
+          <div class="details">
+            <h3>Green leafy vegetable Dish</h3>
+            <p class="price">$2.10</p>
+            <button>Order Now</button>
+          </div>
+        </div>
+
+      </div>
+      <footer>
+        <div class="footer-content">
+          <div class="footer-section contact">
+            <h3>Contact</h3>
+            <div class="icon-container">
+
+              <div class="icon-item">
+                <i class="fa-sharp fa-solid fa-phone" class="footicon"> +91 9903094900</i>
+              </div>
+
+              <div class="icon-item">
+                <i class="fa-solid fa-envelope" class="footicon"> pranav@gmail.com</i>
+              </div>
+
+              <div class="icon-item">
+                <i class="fa-solid fa-address-book" class="footicon"> Lake palace hotel <br>kj junction kakkanad</i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          &copy; Lake palace Restaurant
+        </div>
+      </footer>
+
+    </section>
+
+  </div>
+</body>
+
+</html>
