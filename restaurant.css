@@ -59,12 +59,18 @@ html {
 
 #home {
   margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* background-image: url(./images/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  background-size: cover;
+  background-position: center; 
+/*   background-size: contain; */ */
 }
 
 #location {
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: -79px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 36px;
 }
 
 .link:hover {
@@ -86,6 +92,18 @@ html {
 .h1-title {
   font-size: 2rem;
 }
+.flex-container {
+  display: flex;
+}
+
+.text {
+  flex: 1; 
+}
+
+.image {
+  flex: 1;
+ /*  border: solid black; */
+}
 
 .title-p {
   font-size: 19px;
@@ -93,6 +111,23 @@ html {
   text-align: justify;
   margin-right: 10px;
   margin-top: 30px;
+/*   border: black solid 2px; */
+  width: 656px;
+  height: 322px;
+  font-size: 21px;
+
+}
+.title-ploc{
+  font-size: 19px;
+  margin-left: 2px;
+  text-align: justify;
+  margin-right: 10px;
+  margin-top: 30px;
+/*   border: black solid 2px; */
+  width: 656px;
+  height: 432px;
+  font-size: 21px;
+
 }
 
 .rest-img {
@@ -108,17 +143,18 @@ html {
 }
 
 .cuisine-img {
-  width: 50%;
-  height: 36%;
-  right: 10px;
+  width: 90%;
+  height: 100%;
+  right: 106px;
   position: relative;
-  margin-right: 0%;
-  bottom: 0%;
-  left: 700px;
-  top: -224px;
+  margin-right: 22%;
+  bottom: 66%;
+  left: 41px;
+  top: 57px;
   border-radius: 10px;
   display: flex;
   /* border: solid 2px; */
+  margin-top: -36px;
 
 }
 
@@ -140,15 +176,15 @@ html {
 }
 
 .map {
-  width: 50%;
-  height: 66%;
+  width: 55%;
+  height: 86%;
   right: 10px;
   position: absolute;
   bottom: 20%;
   left: 700px;
   top: -224px;
   display: flex;
-  border: solid 2px black;
+ /*  border: solid 2px black; */
   margin-top: 294px;
   margin-right: 0%;
   bottom: 0%;
@@ -156,6 +192,9 @@ html {
   top: -224px;
   border-radius: 10px;
 
+}
+#chef{
+  margin-top: 100px;
 }
 
 .card-container {
@@ -165,6 +204,7 @@ html {
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 100px;
+  margin-bottom: 87px;
 }
 
 .card {
@@ -198,6 +238,12 @@ html {
 
 #specials {
   margin-top: 100px;
+  background: url(./images/jay-wennington-N_Y88TWmGwA-unsplash.jpg) opacity(1);
+  background-size: cover;
+  background-position: center; 
+  background-blend-mode: overlay;
+  z-index: 1;
+  
 }
 
 
@@ -207,6 +253,7 @@ html {
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  z-index: 5;
 }
 
 .card-2 img {
@@ -302,10 +349,10 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 37px;
-  padding-left: 10px;
-  margin-bottom: 10px;
-  font-size: 15px;
+  padding: 10px;
+  padding-left: 21px;
+  margin-bottom: -10px;
+  font-size: 13px;
 }
 
 .footicon {
@@ -318,4 +365,11 @@ ul {
 .icon-item {
   margin-bottom: 10px;
   margin-right: 20px;
+}
+footer{
+  background-image: url(./images/zakaria-zayane-0uAVsDcyD0M-unsplash.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-blend-mode: overlay;
+  z-index: 0;
 }
